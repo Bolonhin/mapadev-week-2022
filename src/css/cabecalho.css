@@ -1,0 +1,24 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  max-width: 1170px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.cabecalho .menu {
+  display: flex;
+}
+.cabecalho .navegacao .menu .item {
+  margin: 10px;
+}
+.cabecalho .navegacao .menu .item a {
+  padding: 15px;
+  transition: 0.5s ease-in-out;
+}
+.cabecalho .navegacao .menu .item a:hover {
+  background-color: rgb(99, 255, 99);
+  color: white;
+  border-radius: 20px;
+}
